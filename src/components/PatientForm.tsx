@@ -1,13 +1,13 @@
 "use client";
 
-import { Patient, PatientInput } from "@/types/patient";
-import { zodResolver } from "@hookform/resolvers/zod";
+import {Patient, PatientInput} from "@/types/patient";
+import {zodResolver} from "@hookform/resolvers/zod";
 
-import { useState } from "react";
+import {useState} from "react";
 
-import { Plus, X } from "lucide-react";
-import { Controller, useForm } from "react-hook-form";
-import { z } from "zod";
+import {Plus, X} from "lucide-react";
+import {useForm} from "react-hook-form";
+import {z} from "zod";
 
 const patientSchema = z.object({
   name: z.string().min(1, "Name is required"),
@@ -56,7 +56,6 @@ export default function PatientForm({
   const {
     register,
     handleSubmit,
-    control,
     formState: { errors },
   } = useForm<PatientFormData>({
     resolver: zodResolver(patientSchema),

@@ -1,11 +1,6 @@
 import axios from "axios";
-import { Patient, PatientInput, ApiResponse } from "@/types/patient";
-import {
-  LoginRequest,
-  RegisterRequest,
-  AuthResponse,
-  User,
-} from "@/types/auth";
+import {Patient, PatientInput} from "@/types/patient";
+import {AuthResponse, LoginRequest, RegisterRequest, User,} from "@/types/auth";
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || "https://crud-be-ujjp.onrender.com/api";
