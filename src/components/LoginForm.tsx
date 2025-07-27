@@ -189,33 +189,33 @@ export default function LoginForm() {
           )}
 
           {/* Divider */}
-          <div className='mt-6'>
-            <div className='relative'>
-              <div className='absolute inset-0 flex items-center'>
-                <div className='w-full border-t border-gray-300' />
-              </div>
-              <div className='relative flex justify-center text-sm'>
-                <span className='px-2 bg-white text-gray-500'>
-                  Or continue with
-                </span>
-              </div>
-            </div>
-          </div>
+          {/*<div className='mt-6'>*/}
+          {/*  <div className='relative'>*/}
+          {/*    <div className='absolute inset-0 flex items-center'>*/}
+          {/*      <div className='w-full border-t border-gray-300' />*/}
+          {/*    </div>*/}
+          {/*    <div className='relative flex justify-center text-sm'>*/}
+          {/*      <span className='px-2 bg-white text-gray-500'>*/}
+          {/*        Or continue with*/}
+          {/*      </span>*/}
+          {/*    </div>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
 
           {/* Demo Credentials */}
-          <div className='mt-6 bg-gray-50 rounded-md p-4'>
-            <h3 className='text-sm font-medium text-gray-900 mb-2'>
-              Demo Credentials
-            </h3>
-            <div className='text-xs text-gray-600 space-y-1'>
-              <p>
-                <strong>Email:</strong> demo@example.com
-              </p>
-              <p>
-                <strong>Password:</strong> password123
-              </p>
-            </div>
-          </div>
+          {/*<div className='mt-6 bg-gray-50 rounded-md p-4'>*/}
+          {/*  <h3 className='text-sm font-medium text-gray-900 mb-2'>*/}
+          {/*    Demo Credentials*/}
+          {/*  </h3>*/}
+          {/*  <div className='text-xs text-gray-600 space-y-1'>*/}
+          {/*    <p>*/}
+          {/*      <strong>Email:</strong> demo@example.com*/}
+          {/*    </p>*/}
+          {/*    <p>*/}
+          {/*      <strong>Password:</strong> password123*/}
+          {/*    </p>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
         </div>
       </div>
     </div>
